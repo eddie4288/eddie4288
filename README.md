@@ -11,9 +11,6 @@
     <header>
         <h1>Impeccable delivery and installation, designed for you.</h1>
         <p>We specialize in the delivery, installation, and care of premium appliances and furniture.</p>
-        <button onclick="window.location.href='#contact'">Contact us now</button>
-    </header>
-
     <!-- About Us Section -->
     <section id="about">
         <h2>About Us</h2>
@@ -21,7 +18,6 @@
         <h3>Certifications</h3>
         <p>We have experience with brands like Thermador and Sub-Zero. Our team is fully licensed and certified.</p>
     </section>
-
     <!-- Services Section -->
     <section id="services">
         <h2>Our Services</h2>
@@ -43,7 +39,6 @@
         </div>
         <button onclick="window.location.href='#contact'">Discover more</button>
     </section>
-
     <!-- Portfolio Section -->
     <section id="portfolio">
         <h2>Completed Projects</h2>
@@ -63,34 +58,27 @@
             "The team was professional and careful. Highly recommended!" – Naples, FL
         </blockquote>
     </section>
-
     <!-- Contact Us Section -->
     <section id="contact">
         <h2>Contact Us</h2>
         <form>
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required><br>
-
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br>
-
             <label for="phone">Phone:</label><br>
             <input type="tel" id="phone" name="phone" required><br>
-
             <label for="service">Service Needed:</label><br>
             <select id="service" name="service">
                 <option>White Glove Delivery</option>
                 <option>Installation</option>
                 <option>Assembly and Setup</option>
             </select><br>
-
             <label for="details">Additional Details:</label><br>
             <textarea id="details" name="details"></textarea><br>
-
             <button type="submit">Submit</button>
         </form>
     </section>
-
     <!-- Footer -->
     <footer>
         <p>Follow us on:  
